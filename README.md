@@ -1,34 +1,8 @@
-# PhyCDNet: Physics-Guided Causal Heterogeneous Change Detection Network
+# PhyCDNet: Physics-Informed Causal Heterogeneous Change Detection for Geological Disaster Assessment in Steep Mountainous Terrain
 
 This repository provides the official implementation of:
 
-**A Physics-Guided Causal Framework for Cross-Sensor Heterogeneous Change Detection in Remote Sensing Images**
-
----
-
-## Overview
-
-Cross-sensor heterogeneous change detection in remote sensing faces a **triple coupling problem**:
-
-1. **Radiometric inconsistency**: Sensor-specific spectral response functions and atmospheric conditions produce systematic radiometric shifts between pre- and post-disaster images.
-2. **Geometric misalignment**: Cross-resolution acquisition geometry introduces spatial misregistration that traditional two-stage pipelines cannot fully correct.
-3. **Terrain-induced confounding**: Mountain shadows, slope-aspect variations, and cast-shadow regions produce sensor-dependent false alarms indistinguishable from genuine change in feature space.
-
-Existing approaches treat these as independent preprocessing steps—radiometric normalization, geometric registration, change detection—which propagate errors irreversibly through the pipeline.
-
-To address this, we propose **PhyCDNet**, a unified end-to-end framework that integrates physics-grounded radiometric modeling, causal terrain-change decoupling, and terrain-adaptive geometric alignment within a single differentiable architecture.
-
----
-
-## Core Components
-
-### 1️⃣ CRMA — Cross-sensor Radiometric Modulation Alignment
-
-### 2️⃣ PCOD — Physics-Causal Object Decoupling
-
-### 3️⃣ CFDA — Cross-sensor Feature Distribution Alignment
-
-### 4️⃣ Three-Phase Dynamic Loss Scheduling
+**Physics-Informed Causal Heterogeneous Change Detection for Geological Disaster Assessment in Steep Mountainous Terrain**
 
 
 ### Training
